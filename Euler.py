@@ -1,3 +1,5 @@
+#Hay dos errores en el código que están marcados donde corresponde. Faltaría comprobar los resultados usando la solución obtenida por 
+#métodos algebraicos, y el cálculo del error. Después comentame en clase si te diste cuenta de los errores y pudiste completar el código.
 import numpy as np
 
 def euler(f, x0, y0, x_end, n):
@@ -43,9 +45,9 @@ def main():
         R = 12
         L = 4
         V = 60
-        return (V - 3 * I) / L
+        return (V - 3 * I) / L #hay un error en la función introducida
 
-    I, t = euler(f2, 0, 0, 0.5, 100)
+    I, t = euler(f2, 0, 0, 0.5, 100) #para respetar el tamaño de paso pedido, modificar el número de pasos 
     print("\nEjercicio 2:")
     print(f"La corriente en el circuito medio segundo después de cerrar el interruptor es: I(0.5) = {I[-1]:.4f} A")
 
