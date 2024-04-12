@@ -1,5 +1,6 @@
 #Hay dos errores en el código que están marcados donde corresponde. Faltaría comprobar los resultados usando la solución obtenida por 
 #métodos algebraicos, y el cálculo del error. Después comentame en clase si te diste cuenta de los errores y pudiste completar el código.
+#Me faltó comentar que podés subirlo al campus (o colocá un texto diciendo que ya está, así lo califico)
 import numpy as np
 
 def euler(f, x0, y0, x_end, n):
